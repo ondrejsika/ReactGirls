@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+import Nav from "../components/Nav";
 
 export default () => {
   return (
@@ -7,11 +7,7 @@ export default () => {
       <Head>
         <title>Contact me</title>
       </Head>
-      <p>
-        <Link href="/"><a>About me</a></Link>
-        <br />
-        <Link href="/contact"><a>Contact me</a></Link>
-      </p>
+      <Nav />
       <p>
         I'm <a href="https://instagram.com/jsemnela">@jsemnela</a> on Instagram,
         you can write me there. You can also follow my owners{" "}
