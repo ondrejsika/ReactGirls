@@ -13,8 +13,8 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
-    "prettier-check": "prettier -l '**/*.js'",
-    "prettier-write": "prettier --write '**/*.js'",
+    "prettier-check": "prettier -l '**/*.tsx'",
+    "prettier-write": "prettier --write '**/*.tsx'",
     "dev": "next"
   },
   "dependencies": {
