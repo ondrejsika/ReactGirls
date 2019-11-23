@@ -5,5 +5,12 @@
   "repository": "git@github.com:ondrejsika/ReactGirls.git",
   "author": "Ondrej Sika <ondrej@ondrejsika.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "prettier-check": "prettier -l '**/*.js'",
+    "prettier-write": "prettier --write '**/*.js'"
+  }
 }
