@@ -1,0 +1,9 @@
+{
+  "name": "rg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ondrejsika/ReactGirls.git",
+  "author": "Ondrej Sika <ondrej@ondrejsika.com>",
+  "license": "MIT",
+  "private": true
+}
