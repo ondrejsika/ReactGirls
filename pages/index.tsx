@@ -1,15 +1,24 @@
-import Hello from "../components/Hello";
+import Head from "next/head";
 
 export default () => {
   return (
-    <div>
-      <Hello name="Zuz" />
+    <>
+      <Head>
+        <title>About me</title>
+      </Head>
       <p>
-        Anarcho-capitalism is a political philosophy and economic theory that
-        advocates the elimination of centralized state domination in favor of
-        self-ownership, private property and free markets.
+        Ahoy, I'm Nela,
+        <br />
+        I'm half labrador half swiss shepard.
       </p>
-      <Hello />
-    </div>
+      <p>
+        I love watter (anytime, anywhere, dirty is better than clean), mud,
+        mountines and play fetch.
+      </p>
+      <p>
+        I was born 26th of May 2015 close to Hradec Kralove. Now, I live in
+        Prague with my best owners Ondrej and Zuzka.
+      </p>
+    </>
   );
 };
